@@ -1,9 +1,9 @@
 # MQTT: ESP32 Next Level Library Using PubSubClient <a href="https://www.ohioiot.com"><img src="https://www.ohioiot.com/images/logo.jpg" width="40" ></a>
 
 ## Overview
-This library augments the PubSubClient library and gives you tools to build scalable IoT devices. The code is explained in the YouTube video [MQTT - ESP32 Next-Level Library Using PubSubClient.h](https://youtu.be/Y-h9xaIT6jM](https://youtu.be/Y-h9xaIT6jM).
+This library augments the PubSubClient library and gives you tools to build scalable IoT devices. The code is explained in the YouTube video [MQTT - ESP32 Next-Level Library Using PubSubClient.h](https://youtu.be/dwZXmg1UIE0).
 
-
+https://youtu.be/
 👉 Subscribe to the [OhioIoT YouTube Channel](https://www.youtube.com/@OhioIoT?sub_confirmation=1) for more on "All Things IoT": hardware, firmware, connectivity, cloud computing, and dev toolkit.
 
 
