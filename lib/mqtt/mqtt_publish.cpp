@@ -24,16 +24,10 @@ void Mqtt::publish(const char * topic) {
 
 void Mqtt::_publish(const char * topic, const char * payload) {
     if (_is_connected) {
-
-        char enhanced_topic[128];
-        strcpy(enhanced_topic, _device_id);
-        strcat(enhanced_topic, "/");
-        strcat(enhanced_topic, topic);
-
         Serial.print("\tsending: ");
         Serial.print(enhanced_topic);
         Serial.print(" / ");
         Serial.println(payload);
-        _mqtt_client.publish(enhanced_topic, payload);
+        _mqtt_client.publish(topic, payload);
     }
 }
