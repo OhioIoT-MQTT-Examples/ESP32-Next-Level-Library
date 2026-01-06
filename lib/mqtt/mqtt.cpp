@@ -1,6 +1,6 @@
 #include "mqtt.h"
 
-#define DEVICE_ID "test_device_id"
+#define DEVICE_ID "temp_device_id"
 
 Mqtt::Mqtt() {}
 
