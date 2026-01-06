@@ -25,7 +25,7 @@ void Mqtt::publish(const char * topic) {
 void Mqtt::_publish(const char * topic, const char * payload) {
     if (_is_connected) {
         Serial.print("\tsending: ");
-        Serial.print(enhanced_topic);
+        Serial.print(topic);
         Serial.print(" / ");
         Serial.println(payload);
         _mqtt_client.publish(topic, payload);
